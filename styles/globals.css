@@ -4,6 +4,14 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background: linear-gradient(
+    180deg,
+    rgba(22, 14, 70, 0.69) 0%,
+    rgba(7, 3, 30, 0.27) 44.66%,
+    rgba(7, 3, 30, 0.63) 68.39%,
+    rgba(7, 3, 30, 0) 100%
+  );
+  min-height: 100vh;
 }
 
 a {
@@ -19,8 +27,9 @@ a {
   html {
     color-scheme: dark;
   }
+
   body {
-    color: white;
-    background: black;
+    /* color: white; */
+    /* background: black; */
   }
 }
