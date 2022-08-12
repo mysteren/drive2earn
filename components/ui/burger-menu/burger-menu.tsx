@@ -1,8 +1,8 @@
 import Image from "next/image";
 import { FunctionComponent } from "react";
-import styles from "./top-menu.module.css";
+import styles from "./burger-menu.module.css";
 
-const TopMenu: FunctionComponent = () => {
+const BurgerMenu: FunctionComponent = () => {
   return (
     <div className={`${styles.containerBorder} ${styles.polygon}`}>
       <div className={`${styles.container} ${styles.polygon}`}>
@@ -12,4 +12,4 @@ const TopMenu: FunctionComponent = () => {
   );
 };
 
-export default TopMenu;
+export default BurgerMenu;

@@ -1,6 +1,7 @@
 import { NextPage } from "next";
 import Head from "next/head";
 import Link from "next/link";
+import Image from "next/image";
 import Header from "../components/ui/header/header";
 import TopMenu from "../components/ui/top-menu/top-menu";
 import styles from "../styles/Home.module.css";
@@ -14,28 +15,15 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header>
-    
-          {/* <div>
-
-          </div>
-          <div>
-
-          </div>
-          <TopMenu></TopMenu> */}
-     
       </Header>
       <main>
-
-
-
-        <p>hello world</p>
-        <Link href="/index-old">
-          <a>index-old</a>
-        </Link>
-
+        <div className={styles.first}>
+          <Image src="/icons/title.svg" width="1074"
+            height="149"></Image>
+        </div>
       </main>
     </div>
-  )
-}
+  );
+};
 
 export default Home;
