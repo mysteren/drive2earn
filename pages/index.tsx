@@ -1,9 +1,7 @@
 import { NextPage } from "next";
 import Head from "next/head";
-import Link from "next/link";
 import Image from "next/image";
 import Header from "../components/ui/header/header";
-import TopMenu from "../components/ui/top-menu/top-menu";
 import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
@@ -19,7 +17,7 @@ const Home: NextPage = () => {
       <main>
         <div className={styles.first}>
           <Image src="/icons/title.svg" width="1074"
-            height="149"></Image>
+            height="149" alt=""></Image>
         </div>
       </main>
     </div>

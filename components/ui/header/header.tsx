@@ -13,7 +13,9 @@ interface Props {
 const Header: FunctionComponent<Props> = ({ children }) => {
   return (
     <header className={styles.container}>
-      <Logo href="/"></Logo>
+      <Link href="/">
+        <Logo></Logo>
+      </Link>
       <nav className={styles.topCenterMenu}>
         <Link href="">How does it work</Link>
         <Link href="">NFT Car</Link>

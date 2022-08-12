@@ -6,7 +6,7 @@ const Logo: FunctionComponent = () => {
   return (
     <div className={`${styles.containerBorder} ${styles.polygon}`}>
       <div className={`${styles.container} ${styles.polygon}`}>
-        <Image src="/icons/logo.svg" width={155} height={42}></Image>
+        <Image src="/icons/logo.svg" width={155} height={42} alt=""></Image>
       </div>
     </div>
   );
