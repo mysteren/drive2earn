@@ -2,12 +2,68 @@
   position: relative;
   overflow-x: hidden;
   min-height: 100vh;
+  font-family: 'Ruberoid';
+}
+
+.first-wrapper {
+  height: 100vh;
+  background: center no-repeat url('/img/top-bg.jpg');
+  background-size: cover;
 }
 
 .first {
   height: 100vh;
-  background: url('/img/top-bg.jpg'); 
+  background: linear-gradient(180deg, rgba(22, 14, 70, 0.69) 0%, rgba(7, 3, 30, 0.27) 44.66%, rgba(7, 3, 30, 0.63) 68.39%, rgba(7, 3, 30, 0) 100%);
+  
   display: grid;
+
   align-items: center;
   align-content: center;
+  justify-content: center;
+}
+
+.first__top {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: auto auto;
+}
+
+.first__apps-block {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: auto auto;
+  grid-column-gap: 10px;
+}
+
+.first__title1 {
+  font-family: 'RacerBoy';
+  font-size: 38px;
+  font-style: italic;
+  font-weight: 400;
+  color: var(--color-light-blue);
+  text-shadow: 4px 0px  5px #11d9eb9c, -4px 0px  5px #11d9eb9c;
+  /* line-height: 61px;
+  letter-spacing: 0.02em;
+  text-align: left; */
+
+}
+
+.first__apps-block {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 10px;
+}
+
+.first__bottom {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 32px;
+
+}
+
+.first__text {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: bold;
 }

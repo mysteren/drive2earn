@@ -17,7 +17,8 @@
     justify-content: center;
     grid-column-gap: 60px;
     height: 80px;
-    font-family: 'Ruberoid';
-    font-size: 14px;
+    /* font-family: 'Ruberoid'; */
+    font-size: 18px;
+    font-weight: bold;
     /* grid-template-columns: repeat(); */
 }

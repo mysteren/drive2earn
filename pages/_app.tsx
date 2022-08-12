@@ -1,5 +1,6 @@
-import "../public/fonts/ruberoud/stylesheet.css"
-import "../styles/globals.css";
+import "../public/fonts/ruberoud/Ruberoid.css"
+import "../public/fonts/racerboy/RacerBoy.css"
+import "../styles/globals.css"; 
 
 
 import type { AppProps } from "next/app";

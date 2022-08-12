@@ -6,16 +6,14 @@ import BurgerMenu from "../burger-menu/burger-menu";
 
 import styles from "./header.module.css";
 
-interface Props {
-  children: JSX.Element | JSX.Element[];
-}
+// interface Props {
+//   children: JSX.Element | JSX.Element[];
+// }
 
-const Header: FunctionComponent<Props> = ({ children }) => {
+const Header: FunctionComponent = () => {
   return (
     <header className={styles.container}>
-      <Link href="/">
-        <Logo></Logo>
-      </Link>
+      <Logo></Logo>
       <nav className={styles.topCenterMenu}>
         <Link href="">How does it work</Link>
         <Link href="">NFT Car</Link>
