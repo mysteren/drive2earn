@@ -12,6 +12,7 @@
 }
 
 .first {
+  position: relative;
   height: 100vh;
   background: linear-gradient(180deg, rgba(22, 14, 70, 0.69) 0%, rgba(7, 3, 30, 0.27) 44.66%, rgba(7, 3, 30, 0.63) 68.39%, rgba(7, 3, 30, 0) 100%);
   
@@ -54,7 +55,7 @@
   grid-column-gap: 10px;
 }
 
-.first__bottom {
+.first__block2 {
   margin-top: 40px;
   display: grid;
   grid-template-columns: auto auto;
@@ -66,4 +67,22 @@
   font-size: 20px;
   line-height: 32px;
   font-weight: bold;
+}
+
+.first__block3 {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  grid-column-gap: 70px;
+
+}
+
+.first__solana {
+  position: absolute;
+  bottom: 10vh;
+  margin: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
 }

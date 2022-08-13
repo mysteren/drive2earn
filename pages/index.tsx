@@ -1,6 +1,7 @@
 import { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
+import Button1 from "../components/ui/button1/button1";
 import Header from "../components/ui/header/header";
 import styles from "../styles/Home.module.css";
 
@@ -43,7 +44,7 @@ const Home: NextPage = () => {
               height="149"
               alt=""
             ></Image>
-            <div className={styles['first__bottom']}>
+            <div className={styles["first__block2"]}>
               <div>
                 <Image src="/icons/el1.svg" width="72" height="44"></Image>
                 <Image src="/icons/el1.svg" width="72" height="44"></Image>
@@ -51,11 +52,20 @@ const Home: NextPage = () => {
                 <Image src="/icons/el1.svg" width="72" height="44"></Image>
                 <Image src="/icons/el1.svg" width="72" height="44"></Image>
               </div>
-              <div className={styles['first__text']}>
-                Make your daily travel profitable and exciting with DRIVE 2 EARN <br />
-                APP VEEMANS, upgrade your NFT VEEMAN, create alliances, capture <br />
-                territories, get VMS tokens, increase your income 
+              <div className={styles["first__text"]}>
+                Make your daily travel profitable and exciting with DRIVE 2 EARN{" "}
+                <br />
+                APP VEEMANS, upgrade your NFT VEEMAN, create alliances, capture{" "}
+                <br />
+                territories, get VMS tokens, increase your income
               </div>
+            </div>
+            <div className={styles["first__block3"]}>
+              <Button1 variant="1">Join The Community</Button1>
+              <Button1 variant="2">White Paper</Button1>
+            </div>
+            <div className={styles["first__solana"]}>
+              <Image src="/icons/solana.svg" width="180" height="28"></Image>
             </div>
           </div>
         </div>
