@@ -1,0 +1,33 @@
+.container {
+  padding: 240px 7.5% 0px;
+  /* margin-top: 240px; */
+}
+
+.columns1 {
+  display: grid;
+  grid-template-columns: 45% 45%;
+  justify-content: space-around;
+}
+
+.info__paragraph {
+  margin: 32px 0px;
+  font-size: 25px;
+  line-height: 43px;
+}
+
+.info__buttons {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 50px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.info__rm {
+  font-size: 16px;
+  color: var(--color-aqua);
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 10px;
+  align-items: center;
+}

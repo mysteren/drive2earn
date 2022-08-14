@@ -1,6 +1,10 @@
 import { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
+import Block1 from "../components/blocks/block1/block1";
+import Block2 from "../components/blocks/block2/block2";
+import Block3 from "../components/blocks/block3/block3";
+import Block31 from "../components/blocks/block31/block31";
 import Button1 from "../components/ui/button1/button1";
 import Header from "../components/ui/header/header";
 import styles from "../styles/Home.module.css";
@@ -15,60 +19,11 @@ const Home: NextPage = () => {
       </Head>
       <Header></Header>
       <main>
-        <div className={styles["first-wrapper"]}>
-          <div className={styles.first}>
-            <div className={styles.first__top}>
-              <div className={styles.first__title1}>
-                Veemans is a Web 3 blokchain
-              </div>
-              <div className={styles["first__apps-block"]}>
-                <a href="">
-                  <Image
-                    src="/icons/to-app-store.svg"
-                    width="157"
-                    height="46"
-                  ></Image>
-                </a>
-                <a href="">
-                  <Image
-                    src="/icons/to-google-play.svg"
-                    width="157"
-                    height="46"
-                  ></Image>
-                </a>
-              </div>
-            </div>
-            <Image
-              src="/icons/title.svg"
-              width="1074"
-              height="149"
-              alt=""
-            ></Image>
-            <div className={styles["first__block2"]}>
-              <div>
-                <Image src="/icons/el1.svg" width="72" height="44"></Image>
-                <Image src="/icons/el1.svg" width="72" height="44"></Image>
-                <Image src="/icons/el1.svg" width="72" height="44"></Image>
-                <Image src="/icons/el1.svg" width="72" height="44"></Image>
-                <Image src="/icons/el1.svg" width="72" height="44"></Image>
-              </div>
-              <div className={styles["first__text"]}>
-                Make your daily travel profitable and exciting with DRIVE 2 EARN{" "}
-                <br />
-                APP VEEMANS, upgrade your NFT VEEMAN, create alliances, capture{" "}
-                <br />
-                territories, get VMS tokens, increase your income
-              </div>
-            </div>
-            <div className={styles["first__block3"]}>
-              <Button1 variant="1">Join The Community</Button1>
-              <Button1 variant="2">White Paper</Button1>
-            </div>
-            <div className={styles["first__solana"]}>
-              <Image src="/icons/solana.svg" width="180" height="28"></Image>
-            </div>
-          </div>
-        </div>
+        <Block1></Block1>
+        <Block2></Block2>
+        <Block3>
+          <Block31></Block31>
+        </Block3>
       </main>
     </div>
   );

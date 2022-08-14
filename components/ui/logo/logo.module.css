@@ -21,7 +21,7 @@
   .containerBorder {
     position: relative;
     transition: height 0.3s;
-    width: 470px;
+    width: 25vw;
     height: 80px;
     position: relative;
     background: linear-gradient(

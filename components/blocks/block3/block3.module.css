@@ -1,0 +1,20 @@
+.container {
+  min-height: 500vh;
+  position: relative;
+  background:  url('/images/bg3-1.svg') center -1000px no-repeat;
+  margin-top: -80px;
+  background-size: 100%;
+}
+
+/* .bg1 {
+  position: absolute;
+  z-index: -1;
+
+  height: 2229px;
+  width: 2344px;
+  left: -102px;
+  top: -1000px;
+
+  background-size: cover;
+  background: url('/images/bg3-1.svg');
+} */

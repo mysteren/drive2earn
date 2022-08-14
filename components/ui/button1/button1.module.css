@@ -7,7 +7,15 @@
 }
 
 .bg {
-  transition: background 0.5s;
+  transition: all 0.5s;
+  clip-path: polygon(
+    30px 6px,
+    228px 6px,
+    228px 44px,
+    207px 67px,
+    6px 67px,
+    6px 32px
+  );
 }
 
 .container:hover .bg {
@@ -70,5 +78,6 @@
 }
 
 .bg2 {
-  backdrop-filter: blur(8px);
+  /* backdrop-filter: blur(8px); */
+  
 }
