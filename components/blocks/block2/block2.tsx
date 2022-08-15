@@ -3,7 +3,7 @@ import { FunctionComponent } from "react";
 import Button1 from "../../ui/button1/button1";
 import Title1 from "../../ui/title1/title1";
 import styles from "./block2.module.css";
-import Cart1 from "./cart1";
+import Cart1 from "../../carts/cart1/cart1";
 
 const Block2: FunctionComponent = () => {
   return (

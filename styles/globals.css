@@ -2,6 +2,7 @@
 :root {
   --color-white: #ffffff;
   --color-aqua: #11D9EB;
+  --color-dark: #0f0425;
 }
 
 html,
@@ -16,7 +17,7 @@ body {
     rgba(7, 3, 30, 0.27) 44.66%,
     rgba(7, 3, 30, 0.63) 68.39%,
     rgba(7, 3, 30, 0) 100%
-  );
+  ), var(--color-dark);
   color: var(--color-white);
 }
 
