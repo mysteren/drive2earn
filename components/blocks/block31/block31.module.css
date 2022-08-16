@@ -1,5 +1,5 @@
 .container {
-  padding: 240px 7.5% 0px;
+  padding: 100px 7.5% 0px;
   /* margin-top: 240px; */
 }
 
@@ -7,6 +7,7 @@
   display: grid;
   grid-template-columns: 45% 45%;
   justify-content: space-around;
+  margin: 145px 0px;
 }
 
 .info__paragraph {

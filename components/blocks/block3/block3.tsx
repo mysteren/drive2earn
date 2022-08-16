@@ -5,14 +5,14 @@ import Title1 from "../../ui/title1/title1";
 import styles from "./block3.module.css";
 
 interface Props {
-    children: JSX.Element | JSX.Element[];
+  children: JSX.Element | JSX.Element[];
 }
-
 
 const Block3: FunctionComponent<Props> = ({ children }) => {
   return (
     <div className={styles["container"]}>
-        { children }
+      <div className={styles["top-border"]}></div>
+      {children}
     </div>
   );
 };
